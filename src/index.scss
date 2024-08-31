@@ -1,0 +1,14 @@
+@import '~bootstrap/scss/bootstrap';
+
+$primary: $light;
+
+$theme-colors: map-merge($theme-colors, (
+  "primary": $primary
+));
+
+@import '~bootstrap/scss/bootstrap';
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
